@@ -13,6 +13,7 @@
 		EB8314852AD5713200639607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8314832AD5713200639607 /* Main.storyboard */; };
 		EB8314872AD5713400639607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8314862AD5713400639607 /* Assets.xcassets */; };
 		EB83148A2AD5713400639607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8314882AD5713400639607 /* LaunchScreen.storyboard */; };
+		EB8314922AD577A000639607 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB8314912AD577A000639607 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB8314862AD5713400639607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8314892AD5713400639607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB83148B2AD5713400639607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8314912AD577A000639607 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EB8314862AD5713400639607 /* Assets.xcassets */,
 				EB8314882AD5713400639607 /* LaunchScreen.storyboard */,
 				EB83148B2AD5713400639607 /* Info.plist */,
+				EB8314912AD577A000639607 /* MobileNetV2.mlmodel */,
 			);
 			path = MachineLearningImageRecognition;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				EB8314822AD5713200639607 /* ViewController.swift in Sources */,
 				EB83147E2AD5713200639607 /* AppDelegate.swift in Sources */,
+				EB8314922AD577A000639607 /* MobileNetV2.mlmodel in Sources */,
 				EB8314802AD5713200639607 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
